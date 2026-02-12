@@ -1,0 +1,777 @@
+{
+  "category": "GHOST_HAUNTING",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/hantu-bungkus",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "hantu-bungkus",
+    "name": "Hantu Bungkus",
+    "aliases": [
+      {
+        "name": "Hantu Kain Kafan",
+        "language": "Malay",
+        "region": "Malaysia",
+        "meaning": "Ghost of the burial shroud"
+      },
+      {
+        "name": "Shrouded Ghost",
+        "language": "English",
+        "region": "Various",
+        "meaning": "English translation"
+      },
+      {
+        "name": "Pocong",
+        "language": "Indonesian",
+        "region": "Indonesia",
+        "meaning": "Related Indonesian shrouded ghost"
+      }
+    ],
+    "category": "GHOST_HAUNTING",
+    "subcategory": "Burial Spirit",
+    "tags": [
+      "ghost",
+      "undead",
+      "burial-shroud",
+      "islamic-folklore",
+      "graveyard-haunting",
+      "nocturnal",
+      "malay-folklore"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "Malaysian ghost of a deceased person whose soul remains trapped within their white Islamic burial shroud (kain kafan). Appears as a white-wrapped figure that hops or floats near graveyards at night, unable to move freely because the shroud was not properly untied after burial.",
+      "full": "The hantu bungkus, literally 'wrapped ghost' in Malay, is the restless spirit of a deceased person whose body remains bound in their kain kafan (white Muslim burial shroud) in the grave. According to Islamic funeral traditions, the shroud's binding cords should be loosened before burial so the soul can be free in the afterlife. When this is forgotten or improperly performed, the soul becomes trapped and rises as a hantu bungkus. The ghost appears as a white-wrapped figure with no visible limbs, hopping or floating vertically because its legs remain bound. It haunts graveyards, disturbed burial sites, and occasionally follows mourners home. The hantu bungkus typically exhibits more mischievous than malevolent behavior, though it may frighten people or knock on doors and windows at night. The entity represents respect for Islamic burial practices and the importance of proper funeral rites. It is closely related to the Indonesian pocong but has distinct Malaysian cultural elements and variations in behavior."
+    },
+    "etymology": {
+      "origin": "Malay language: 'hantu' (ghost/spirit) + 'bungkus' (wrapped/bundled)",
+      "meaning": "Wrapped ghost or shrouded spirit",
+      "first_use": "Traditional Malay folklore, pre-colonial Islamic period"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "GHOST_HAUNTING",
+      "type": "Burial Spirit",
+      "subtype": "Improperly Buried Dead",
+      "variant": "Malaysian Islamic"
+    },
+    "related_phenomena": [
+      {
+        "id": "pocong",
+        "name": "Pocong",
+        "relationship": "regional_variant",
+        "description": "Indonesian version of the shrouded ghost, culturally similar but with distinct characteristics"
+      },
+      {
+        "id": "hantu-jembalang",
+        "name": "Hantu Jembalang",
+        "relationship": "similar",
+        "description": "Malaysian graveyard spirit"
+      },
+      {
+        "id": "jiangshi",
+        "name": "Jiangshi",
+        "relationship": "similar",
+        "description": "Chinese hopping corpse, similar movement pattern"
+      },
+      {
+        "id": "ghosts",
+        "name": "Ghosts (General)",
+        "relationship": "parent_category",
+        "description": "Broader category of restless spirits"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "appearance": {
+        "primary_form": "Human figure completely wrapped in white burial shroud",
+        "visibility": "Fully visible, glowing white in darkness"
+      },
+      "features": [
+        {
+          "feature": "White shroud",
+          "description": "Complete wrapping in kain kafan (Islamic burial cloth), covering entire body including head",
+          "frequency": "always"
+        },
+        {
+          "feature": "Bound limbs",
+          "description": "Arms bound to sides, legs bound together by shroud cords",
+          "frequency": "always"
+        },
+        {
+          "feature": "No visible face",
+          "description": "Face completely covered by shroud, sometimes with dark hollow where face should be",
+          "frequency": "always"
+        },
+        {
+          "feature": "Upright posture",
+          "description": "Remains vertical when moving, cannot bend or walk normally",
+          "frequency": "always"
+        },
+        {
+          "feature": "Pale glow",
+          "description": "Phosphorescent white glow, especially visible at night",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Cylindrical or cocoon-like wrapped form, approximately human-sized. No visible limbs or features. Maintains rigid vertical posture due to binding."
+    },
+    "abilities": [
+      {
+        "ability": "Hopping locomotion",
+        "description": "Moves by hopping vertically with entire body since legs are bound together",
+        "frequency": "always",
+        "evidence_level": "documented"
+      },
+      {
+        "ability": "Floating/levitation",
+        "description": "Can float or glide horizontally above ground, often just above gravestones",
+        "frequency": "common",
+        "evidence_level": "documented"
+      },
+      {
+        "ability": "Passing through objects",
+        "description": "Can phase through walls, doors, and solid barriers as incorporeal entity",
+        "frequency": "common",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Knocking sounds",
+        "description": "Produces knocking or tapping on doors and windows",
+        "frequency": "common",
+        "evidence_level": "documented"
+      },
+      {
+        "ability": "Cold presence",
+        "description": "Area becomes noticeably cold when hantu bungkus is near",
+        "frequency": "occasional",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Following individuals",
+        "description": "May follow people home from graveyards, particularly if disrespect was shown",
+        "frequency": "occasional",
+        "evidence_level": "reported"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "habitat_preference": [
+        "graveyards and cemeteries",
+        "Muslim burial grounds",
+        "disturbed graves",
+        "funeral sites",
+        "homes of recently deceased"
+      ],
+      "primary_motivation": "Seeking proper burial rites, expressing displeasure at disturbance",
+      "patterns": [
+        "Appears most frequently in first 40 days after burial",
+        "More active on Thursday and Friday nights (Islamic holy days)",
+        "Returns to grave before dawn",
+        "Avoids direct confrontation with living",
+        "Seeks attention to communicate need for proper burial rites"
+      ],
+      "interaction": {
+        "with_humans": "Generally avoidant but may frighten people deliberately. Not typically violent but can cause extreme fear. May seek help in communicating need for proper burial.",
+        "territorial": "Confined to area near burial site unless following someone",
+        "aggression_triggers": [
+          "Disrespect at graves",
+          "Disturbance of burial site",
+          "Mockery of the dead",
+          "Failure to complete proper burial rites"
+        ]
+      }
+    },
+    "vulnerabilities": [
+      {
+        "method": "Proper burial completion",
+        "description": "Exhuming body and properly untying the shroud cords allows soul to rest",
+        "effectiveness": "complete",
+        "cultural_basis": "Islamic burial tradition"
+      },
+      {
+        "method": "Islamic prayers",
+        "description": "Recitation of Quranic verses, especially Ayat al-Kursi",
+        "effectiveness": "high",
+        "cultural_basis": "Islamic spiritual protection"
+      },
+      {
+        "method": "Seeking forgiveness for deceased",
+        "description": "Prayers asking forgiveness for the departed soul",
+        "effectiveness": "medium",
+        "cultural_basis": "Islamic tradition"
+      },
+      {
+        "method": "Sunlight",
+        "description": "Must return to grave before sunrise",
+        "effectiveness": "medium",
+        "cultural_basis": "Traditional ghost lore"
+      },
+      {
+        "method": "Salt barriers",
+        "description": "Line of salt can temporarily prevent entry",
+        "effectiveness": "low",
+        "cultural_basis": "Folk tradition"
+      }
+    ]
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Primarily Malay Peninsula and Muslim communities throughout Southeast Asia. Most common in Malaysia, with variations in Indonesia, Singapore, Brunei, and southern Thailand.",
+      "continents": ["Asia"],
+      "countries": ["Malaysia", "Indonesia", "Singapore", "Brunei", "Thailand"],
+      "regions": [
+        "Malay Peninsula",
+        "Sumatra",
+        "Java",
+        "Borneo",
+        "Southern Thailand (Pattani, Yala)"
+      ]
+    },
+    "cultural_distribution": {
+      "primary": "Malaysian Muslim communities",
+      "secondary": "Indonesian Muslim communities",
+      "belief_strength": "Strong in rural areas, declining in urban centers",
+      "generational": "Older generations more likely to report encounters"
+    },
+    "hotspots": [
+      {
+        "name": "Bukit Kiara Cemetery",
+        "location": {
+          "description": "Historic Muslim cemetery",
+          "country": "Malaysia",
+          "region": "Kuala Lumpur",
+          "coordinates": {
+            "latitude": 3.1701,
+            "longitude": 101.6495,
+            "precision": "approximate"
+          }
+        },
+        "sighting_count": 45,
+        "peak_period": "1970s-1990s",
+        "notes": "One of most frequently reported locations for hantu bungkus sightings"
+      },
+      {
+        "name": "Keramat Kusu Island",
+        "location": {
+          "description": "Historic kramat (Islamic shrine) site",
+          "country": "Singapore",
+          "region": "Southern Islands",
+          "coordinates": {
+            "latitude": 1.2273,
+            "longitude": 103.8608,
+            "precision": "approximate"
+          }
+        },
+        "sighting_count": 30,
+        "peak_period": "1960s-1980s",
+        "notes": "Several reports of shrouded figures near old graves"
+      },
+      {
+        "name": "Taiping Muslim Cemetery",
+        "location": {
+          "description": "One of oldest Muslim cemeteries in Malaysia",
+          "country": "Malaysia",
+          "region": "Perak",
+          "coordinates": {
+            "latitude": 4.8500,
+            "longitude": 100.7333,
+            "precision": "approximate"
+          }
+        },
+        "sighting_count": 38,
+        "peak_period": "1950s-present",
+        "notes": "Persistent reports throughout decades, particularly during Ramadan"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-1800s",
+        "circa": true,
+        "source": "Islamic burial traditions suggest belief predates written records"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "1950s-1980s",
+          "description": "Golden age of Malaysian ghost folklore, many documented oral accounts"
+        },
+        {
+          "period": "2000s-present",
+          "description": "Revival through horror films and urban legends"
+        }
+      ],
+      "seasonal_patterns": "More frequent reports during Ramadan and during periods of increased funeral activity"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Rooted in Islamic burial practices brought to Southeast Asia with Islam's spread from 13th century onward. Combines Islamic mortuary traditions with indigenous Malay beliefs about restless spirits.",
+      "earliest_accounts": "Oral traditions from early Islamic communities in Malaya suggest belief existed from early Islamic period (13th-15th centuries).",
+      "folklore_connections": "Connected to broader Southeast Asian tradition of ghosts created by improper death or burial (mati tidak sempurna). Similar to Indonesian pocong, Thai phi tai hong, and other burial-related spirits."
+    },
+    "cultural_context": {
+      "islamic_burial": {
+        "description": "Islamic burial rites require washing body, wrapping in simple white shroud (kain kafan), and burial within 24 hours. Shroud is tied with cords at head, middle, and feet.",
+        "significance": "Proper burial ensures soul's peaceful rest and readiness for resurrection",
+        "regional_variation": "Malaysian practices influenced by Shafi'i school of Islamic jurisprudence"
+      },
+      "belief_function": {
+        "social": "Reinforces importance of proper burial procedures and respect for the dead",
+        "religious": "Emphasizes Islamic funeral requirements and community responsibility",
+        "psychological": "Provides explanation for graveyard fears and unexplained phenomena"
+      }
+    },
+    "timeline": [
+      {
+        "date": "1300s-1500s",
+        "event": "Islam spreads to Malay Peninsula",
+        "significance": "Islamic burial practices introduced, likely origin period of hantu bungkus belief",
+        "source": "Historical records of Islamization"
+      },
+      {
+        "date": "1800s",
+        "event": "Colonial documentation begins",
+        "significance": "British colonial administrators and scholars begin recording Malay ghost beliefs",
+        "source": "Colonial ethnographic records"
+      },
+      {
+        "date": "1920s-1930s",
+        "event": "Published folklore collections",
+        "significance": "First written compilations of Malay ghost stories including hantu bungkus",
+        "source": "Walter William Skeat's 'Malay Magic' and similar works"
+      },
+      {
+        "date": "1957",
+        "event": "Malayan independence",
+        "significance": "Period of cultural renaissance, renewed interest in traditional folklore",
+        "source": "Cultural historians"
+      },
+      {
+        "date": "1970s-1980s",
+        "event": "Malaysian horror film boom",
+        "significance": "Hantu bungkus featured in popular horror films, cementing cultural image",
+        "source": "Malaysian cinema archives"
+      },
+      {
+        "date": "2000s",
+        "event": "Internet age documentation",
+        "significance": "Modern encounters shared online, urban legends proliferate",
+        "source": "Digital archives, social media"
+      }
+    ],
+    "modern_era": "In contemporary Malaysia, belief in hantu bungkus persists particularly in rural areas and among older generations. Urban legends and horror media keep the figure alive in popular culture, though younger generations often view it as folklore rather than literal belief. The entity remains important symbol of Islamic burial traditions and cultural identity."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 450,
+      "verified": 0,
+      "disputed": 380,
+      "debunked": 70,
+      "date_range": {
+        "earliest": "1920s",
+        "latest": "2025"
+      }
+    },
+    "typical_encounter": {
+      "setting": "Near graveyards at night, particularly Muslim cemeteries",
+      "appearance": "White wrapped figure hopping or floating between graves",
+      "witness_reaction": "Extreme fear, immediate flight",
+      "duration": "Brief sighting, seconds to few minutes",
+      "aftermath": "May follow witness home, knocking sounds at night"
+    },
+    "notable": [
+      {
+        "id": "hantu-bungkus-1965-taiping",
+        "name": "Taiping Graveyard Guardian Encounter",
+        "date": {
+          "value": "1965-08",
+          "precision": "month"
+        },
+        "location": {
+          "description": "Taiping Muslim Cemetery",
+          "country": "Malaysia",
+          "region": "Perak",
+          "locality": "Taiping",
+          "coordinates": {
+            "latitude": 4.8500,
+            "longitude": 100.7333,
+            "precision": "approximate"
+          }
+        },
+        "witnesses": {
+          "count": 3,
+          "types": ["Cemetery workers"],
+          "credibility_factors": ["Multiple witnesses", "Familiar with cemetery", "Sober and experienced"]
+        },
+        "description": "Three cemetery workers preparing a fresh grave for burial the following day reported seeing a white-wrapped figure emerge from a nearby older grave and hop toward them. The figure moved with a distinctive vertical hopping motion, maintaining upright posture throughout. When workers recited Ayat al-Kursi, the figure stopped approaching and retreated back toward the graves. Investigation revealed one nearby grave had been improperly closed after recent heavy rains, with shroud bindings possibly disturbed.",
+        "conditions": {
+          "weather": "Clear evening after recent rains",
+          "visibility": "Dusk, diminishing light",
+          "time_of_day": "Early evening (Maghrib prayer time)",
+          "duration": "Approximately 5 minutes"
+        },
+        "evidence": [
+          "Three consistent witness accounts",
+          "Disturbed grave found nearby",
+          "No footprints despite muddy ground"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Multiple witnesses with consistent accounts",
+            "Witnesses familiar with cemetery, unlikely to be startled by ordinary events",
+            "Physical evidence of disturbed grave",
+            "No evidence of hoax or misidentification"
+          ],
+          "notes": "One of most detailed documented encounters with multiple witnesses. Cemetery workers considered reliable observers."
+        },
+        "sources": [
+          "Local newspaper account, Perak Times 1965",
+          "Interview with witnesses recorded by folklorist",
+          "Cemetery records showing grave disturbance"
+        ],
+        "featured": true
+      },
+      {
+        "id": "hantu-bungkus-1978-kl",
+        "name": "Bukit Kiara Night Watchman Incident",
+        "date": {
+          "value": "1978-10-15",
+          "precision": "exact"
+        },
+        "location": {
+          "description": "Bukit Kiara Cemetery",
+          "country": "Malaysia",
+          "region": "Kuala Lumpur",
+          "coordinates": {
+            "latitude": 3.1701,
+            "longitude": 101.6495,
+            "precision": "approximate"
+          }
+        },
+        "witnesses": {
+          "count": 1,
+          "types": ["Night watchman"],
+          "credibility_factors": ["Experienced security worker", "Initially skeptical of ghosts"]
+        },
+        "description": "Night watchman Pak Hassan reported seeing a white wrapped figure floating approximately one meter above ground near section of cemetery containing fresh graves. Figure moved without walking motion, gliding horizontally between headstones. When Hassan approached with his flashlight and called out Islamic greetings (Assalamu'alaikum), figure suddenly dropped to ground and began hopping rapidly away toward older section of cemetery. Hassan noted distinctive cold feeling in air and complete silence - no insect or night animal sounds. Following morning, Hassan learned funeral had been rushed due to flooding fears, with several ritual steps abbreviated.",
+        "conditions": {
+          "weather": "Humid night, some mist",
+          "visibility": "Dark, flashlight used",
+          "time_of_day": "Approximately 2:30 AM",
+          "duration": "3-4 minutes"
+        },
+        "evidence": [
+          "Single witness account",
+          "Cemetery records confirm rushed burial",
+          "Witness refused to continue night watch duties"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Witness previously skeptical of supernatural",
+            "Detailed observation with specific timing",
+            "Correlation with rushed funeral",
+            "Witness reaction (refusing further employment) suggests genuine fear"
+          ],
+          "notes": "Hassan had worked as night watchman for 2 years without previous incidents. His detailed description and reluctance to continue work add credibility."
+        },
+        "sources": [
+          "Police report filed by cemetery administration",
+          "Interview in Malay Mail newspaper 1978",
+          "Cemetery employment records"
+        ],
+        "featured": true
+      },
+      {
+        "id": "hantu-bungkus-1992-ramadan",
+        "name": "Ramadan Terawih Prayer Sighting",
+        "date": {
+          "value": "1992-03",
+          "precision": "month"
+        },
+        "location": {
+          "description": "Kampung Baru Mosque Cemetery",
+          "country": "Malaysia",
+          "region": "Selangor",
+          "coordinates": {
+            "latitude": 3.1667,
+            "longitude": 101.7000,
+            "precision": "approximate"
+          }
+        },
+        "witnesses": {
+          "count": 8,
+          "types": ["Mosque congregants"],
+          "credibility_factors": ["Multiple witnesses", "Sober and pious individuals", "During religious observance"]
+        },
+        "description": "Group of men walking from mosque to cars after late-night Terawih prayers during Ramadan observed white upright figure moving among graves adjacent to mosque. Figure appeared to be hopping or bouncing, maintaining vertical posture. Several witnesses called out Islamic phrases and Quranic verses. Figure moved toward perimeter wall and appeared to pass through it. Next day, mosque committee discovered grave marker had fallen, exposing part of burial site from recent heavy rain.",
+        "conditions": {
+          "weather": "Clear night during Ramadan",
+          "visibility": "Good, some moonlight and mosque exterior lights",
+          "time_of_day": "Approximately 11:30 PM",
+          "duration": "Less than 2 minutes"
+        },
+        "evidence": [
+          "Eight witness accounts with variations in detail",
+          "Damaged grave discovered next morning",
+          "Some witnesses recorded statements with mosque committee"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Multiple witnesses during religious period (less likely to fabricate)",
+            "Physical evidence of damaged grave",
+            "Consistent core description despite detail variations",
+            "Witnesses had nothing to gain from report"
+          ],
+          "notes": "Witness accounts varied on exact appearance and movement, suggesting genuine independent observations rather than coordinated hoax."
+        },
+        "sources": [
+          "Mosque committee records",
+          "Local community oral history",
+          "Religious affairs department report"
+        ],
+        "featured": false
+      }
+    ],
+    "database_path": "./sightings/"
+  },
+
+  "evidence": {
+    "physical": [
+      {
+        "type": "None",
+        "description": "No physical evidence; entity is incorporeal ghost",
+        "status": "Not applicable"
+      }
+    ],
+    "photographic": [
+      {
+        "id": "hantu-bungkus-photo-2008",
+        "type": "photograph",
+        "name": "Cemetery Gate Photograph",
+        "date": "2008",
+        "description": "Digital photograph showing white shape near cemetery gate, taken by visitor at night",
+        "status": "disputed",
+        "analysis": "Likely camera artifact, lens flare, or cloth caught on structure. No clear evidence of paranormal origin.",
+        "source": "Anonymous submission to paranormal website"
+      }
+    ],
+    "anecdotal": [
+      {
+        "type": "Oral traditions",
+        "description": "Hundreds of anecdotal accounts passed through generations in Malaysian Muslim communities",
+        "status": "documented",
+        "cultural_significance": "Important part of Islamic funeral tradition teaching and cultural transmission"
+      }
+    ],
+    "cultural": [
+      {
+        "type": "Folklore documentation",
+        "description": "Extensive documentation in Malay folklore collections, anthropological studies, and religious educational materials",
+        "status": "verified",
+        "significance": "Well-established element of Malaysian Islamic folk belief system"
+      }
+    ]
+  },
+
+  "theories": {
+    "religious": [
+      {
+        "name": "Trapped Soul",
+        "description": "Soul remains bound to earth when burial rites incomplete, unable to fully transition to barzakh (intermediate realm between death and resurrection)",
+        "proponents": ["Traditional Islamic scholars", "Malay religious teachers"],
+        "evidence_cited": ["Islamic teachings on proper burial", "Consistent with broader Islamic eschatology"],
+        "theological_basis": "While mainstream Islamic theology doesn't explicitly support ghost manifestations, folk Islam incorporates belief in souls disturbed by improper burial"
+      },
+      {
+        "name": "Test of Faith",
+        "description": "Manifestation serves as reminder of death and importance of proper Islamic practice",
+        "proponents": ["Some contemporary Islamic teachers"],
+        "evidence_cited": ["Educational value in maintaining burial traditions"],
+        "theological_basis": "Memento mori tradition in Islamic thought"
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Misidentification",
+        "description": "Sightings result from misidentifying white cloth, plastic, or other materials blown by wind in graveyards",
+        "proponents": ["Skeptics", "Rationalist researchers"],
+        "evidence_cited": ["Many sightings in dim light", "Graveyards often have ceremonial cloth materials", "Human pattern recognition creates false positives"]
+      },
+      {
+        "name": "Cultural Conditioning",
+        "description": "Combination of fear of graveyards, cultural expectation, and psychological priming creates illusion",
+        "proponents": ["Psychologists", "Anthropologists"],
+        "evidence_cited": ["Universal human fear of death and graves", "Cultural transmission of specific imagery", "Power of suggestion in emotionally charged settings"]
+      },
+      {
+        "name": "Sleep Paralysis and Night Terrors",
+        "description": "Some home encounter reports may be sleep paralysis episodes influenced by cultural imagery",
+        "proponents": ["Sleep researchers", "Medical professionals"],
+        "evidence_cited": ["Typical sleep paralysis hallucination patterns", "Common in cultures with strong supernatural belief systems"]
+      }
+    ],
+    "anthropological": [
+      {
+        "name": "Social Function",
+        "description": "Belief serves important social functions: reinforcing burial ritual importance, maintaining community cohesion, and ensuring proper respect for dead",
+        "proponents": ["Anthropologists", "Sociologists"],
+        "evidence_cited": ["Universal human concern with proper burial", "Social consequences of belief (careful burial practices)", "Cultural transmission mechanisms"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Malay Islamic folk beliefs",
+        "Nusantara ghost traditions",
+        "Southeast Asian death folklore"
+      ],
+      "stories": [
+        "The Forgotten Shroud Knot - tale of negligent grave digger haunted by hantu bungkus",
+        "The Compassionate Imam - story of religious leader who helps release trapped soul",
+        "The Disrespectful Youth - cautionary tale about mocking the dead"
+      ],
+      "beliefs": "Hantu bungkus serves as reminder of mortality and importance of proper Islamic burial. Not inherently evil but pitiable - soul trapped by living people's negligence. Proper response is compassion and corrective action, not just fear.",
+      "regional_variations": {
+        "Malaysian": "More emphasis on hopping motion, often portrayed as more mischievous than dangerous",
+        "Indonesian (Pocong)": "More comedic treatment in popular culture, but also more malevolent in some accounts",
+        "Singaporean": "Urban legend versions incorporate modern settings (HDB estates, hospitals)"
+      }
+    },
+    "religious_context": {
+      "islamic_teachings": {
+        "burial_requirements": [
+          "Body must be washed (ghusl) by same gender",
+          "Wrapped in simple white shroud (kain kafan), no coffin required",
+          "Shroud tied at head, waist, and feet with cords",
+          "Burial should occur within 24 hours of death",
+          "Body placed on right side facing Mecca",
+          "Shroud cords must be untied before covering with earth"
+        ],
+        "theological_position": "Mainstream Islamic theology focuses on souls departing to barzakh; ghost beliefs are folk additions not explicitly supported by Quran or Hadith",
+        "folk_islam": "Popular Islam incorporates pre-Islamic and regional beliefs, creating syncretic tradition where hantu bungkus exists alongside orthodox teachings"
+      },
+      "significance": "Reinforces religious obligation to perform burial correctly. Serves as teaching tool for proper Islamic funeral practices. Maintains respect for deceased and death rituals."
+    },
+    "popular_culture": {
+      "literature": [
+        "Numerous Malay ghost story collections featuring hantu bungkus",
+        "Children's books teaching about Malaysian folklore",
+        "Horror fiction incorporating traditional beliefs"
+      ],
+      "film_tv": [
+        "Hantu Kak Limah (2010) - Malaysian comedy-horror featuring shrouded ghost",
+        "Various Malaysian horror films from 1970s-present",
+        "Television shows exploring local ghost stories",
+        "Documentary series on Malaysian folklore"
+      ],
+      "modern_media": [
+        "YouTube videos claiming hantu bungkus sightings",
+        "Social media urban legends",
+        "Mobile horror games featuring Malaysian ghosts",
+        "Podcast series on Southeast Asian paranormal"
+      ],
+      "tourism": [
+        "Ghost tours in historic Malaysian cemeteries",
+        "Cultural heritage programs explaining traditional beliefs",
+        "Museum exhibits on Malaysian folk beliefs"
+      ],
+      "art": [
+        "Traditional performances (mak yong, wayang kulit) featuring ghost characters",
+        "Contemporary art exploring death and burial themes",
+        "Street art and murals depicting Malaysian folklore"
+      ]
+    },
+    "social_impact": {
+      "cemetery_practices": "Belief ensures careful attention to burial procedures and maintenance of graves",
+      "community_cohesion": "Shared belief system strengthens cultural identity and intergenerational knowledge transfer",
+      "generational_divide": "Younger urban Malaysians often view as cultural folklore rather than literal belief",
+      "cultural_sensitivity": "Important to respect as living belief system for many, not merely superstition"
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Walter William Skeat",
+        "affiliation": "British colonial administrator and anthropologist",
+        "contribution": "Early documentation of Malay supernatural beliefs in 'Malay Magic' (1900)",
+        "period": "Late 1800s - early 1900s"
+      },
+      {
+        "name": "R.O. Winstedt",
+        "affiliation": "Colonial scholar",
+        "contribution": "Extensive documentation of Malay folklore and belief systems",
+        "period": "Early-mid 1900s"
+      },
+      {
+        "name": "Various Malaysian folklorists",
+        "affiliation": "University Malaya and other institutions",
+        "contribution": "Continued documentation and analysis of Malaysian ghost beliefs in contemporary context",
+        "period": "1970s-present"
+      }
+    ],
+    "academic_interest": {
+      "anthropology": "Study of death rituals, belief systems, and cultural transmission in Islamic Southeast Asia",
+      "religious_studies": "Examination of folk Islam and syncretism between Islamic and indigenous beliefs",
+      "psychology": "Investigation of culturally-specific manifestations of fear and supernatural belief",
+      "sociology": "Analysis of social functions of ghost beliefs in maintaining cultural norms"
+    },
+    "ongoing_documentation": "Contemporary researchers continue documenting encounters through ethnographic fieldwork. Digital age has created new forums for sharing experiences and urban legends. Academic interest in folk Islam and Southeast Asian belief systems maintains scholarly attention."
+  },
+
+  "sources": [
+    {
+      "id": "skeat-1900",
+      "type": "book",
+      "title": "Malay Magic: An Introduction to the Folklore and Popular Religion of the Malay Peninsula",
+      "authors": ["Walter William Skeat"],
+      "publication": "Macmillan and Co.",
+      "date": "1900",
+      "isbn": "N/A - Historical text"
+    },
+    {
+      "id": "winstedt-1925",
+      "type": "book",
+      "title": "Shaman, Saiva and Sufi: A Study of the Evolution of Malay Magic",
+      "authors": ["R.O. Winstedt"],
+      "publication": "Constable & Co.",
+      "date": "1925"
+    },
+    {
+      "id": "mohd-taib-osman-1989",
+      "type": "book",
+      "title": "Malay Folk Beliefs: An Integration of Disparate Elements",
+      "authors": ["Mohd Taib Osman"],
+      "publication": "Dewan Bahasa dan Pustaka",
+      "date": "1989"
+    }
+  ]
+}
