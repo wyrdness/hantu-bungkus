@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/hantu-bungkus",
     "maintainers": [
       {
@@ -16,72 +16,126 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "hantu-bungkus",
     "name": "Hantu Bungkus",
-    "aliases": [],
-    "category": "GHOST",
-    "subcategory": "Unknown",
+    "aliases": [
+      { "name": "Pocong", "language": "Indonesian / Javanese", "region": "Indonesia, Malaysia", "meaning": "Wrapped (in shroud)" },
+      { "name": "Hantu Pocong", "language": "Malay", "region": "Malaysia, Brunei" },
+      { "name": "Wrapped Ghost", "language": "English", "meaning": "Direct translation" },
+      { "name": "Kafan ghost", "language": "Indonesian/Malay", "meaning": "After kain kafan, the Islamic burial shroud" }
+    ],
+    "category": "UNDEAD",
+    "subcategory": "Shroud-bound revenant",
     "tags": [
-      "folklore",
-      "mythology"
+      "shroud",
+      "burial",
+      "islamic-folklore",
+      "malay",
+      "indonesian",
+      "revenant",
+      "hopping-ghost",
+      "kain-kafan"
     ],
     "status": "documented",
     "description": {
-      "summary": "The **hantu bungkus** (literally \\\"wrapped ghost\\\" in Malay) is the restless spirit of a deceased person whose soul remains trapped within their white Islamic burial shroud (kain kafan).",
-      "full": "The **hantu bungkus** (literally \\\"wrapped ghost\\\" in Malay) is the restless spirit of a deceased person whose soul remains trapped within their white Islamic burial shroud (kain kafan). This ghost represents one of the most distinctive elements of Malaysian Islamic folklore, serving both as a source of fear and as an important reminder of the proper respect owed to the dead and the crucial importance of correct burial procedures."
+      "summary": "Hantu Bungkus (Malay 'wrapped ghost'), known in Indonesian as Pocong, is the restless spirit of a deceased Muslim whose burial shroud (kain kafan) was not properly untied at burial. It is depicted as a body still wrapped in white cloth that hops or floats at night.",
+      "full": "Hantu Bungkus ('wrapped ghost') is the Malaysian name for the figure widely known across the Malay-Indonesian world as Pocong. It is rooted in Islamic burial practice: a deceased Muslim is washed, then wrapped in a kain kafan (white burial shroud) tied at the head, neck, waist, and feet. According to folk tradition, if the knots are not loosened in the grave after burial, the soul cannot depart and the body becomes a hantu bungkus / pocong, an animate, shroud-bound revenant. Because its feet are bound together, the creature is unable to walk and is depicted as moving by hopping, often in a manner compared to the Chinese jiangshi; some traditions hold that authentic pocong actually float rather than hop, and that hopping in folk depictions is an embellishment. Encounters are reported as terrifying but typically not directly lethal — pocong are usually said to startle or warn rather than physically harm. The figure is one of the most recognizable in Malay-Indonesian horror media, anchoring a long line of films, television series, and internet ghost stories from at least the early 2000s."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Malay: hantu ('ghost') + bungkus ('wrapped, parcelled'). Indonesian/Javanese pocong is a separate term from the same semantic field, derived from Javanese for 'wrapped (corpse)'.",
+      "meaning": "Literally 'wrapped ghost' — naming the entity after the unloosed Islamic burial shroud.",
+      "first_use": "Term embedded in modern Malay/Indonesian usage; closely tied to Islamic burial customs that have been practiced in the region since at least the 13th century."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "GHOST",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "UNDEAD",
+      "type": "Revenant / corpse-spirit",
+      "subtype": "Shroud-bound dead",
+      "variant": "Malay-Indonesian Islamic"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "jiangshi", "name": "Jiangshi", "relationship": "similar", "description": "Chinese hopping corpse with comparable locomotion" },
+      { "id": "hantu-pontianak", "name": "Pontianak", "relationship": "related", "description": "Other major figure in Malay-Indonesian ghost folklore" },
+      { "id": "draugr", "name": "Draugr", "relationship": "counterpart", "description": "Norse shroud-bound revenant" },
+      { "id": "revenant-european", "name": "European Revenant", "relationship": "counterpart", "description": "Medieval Christian revenant traditions of the unburied/improperly buried dead" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.5, "max": 1.9, "unit": "meters", "confidence": "low" },
+      "coloration": ["white (shroud)", "pale (face when visible)"],
+      "features": [
+        { "feature": "White Islamic burial shroud (kain kafan)", "description": "The whole body is wrapped in the white cotton shroud, with knots at the head, neck, and feet still tied", "frequency": "always" },
+        { "feature": "Bound feet", "description": "Feet are tied together inside the shroud, preventing walking", "frequency": "always" },
+        { "feature": "Pale face (visible variant)", "description": "Some accounts describe the face as visible — pale, with wide-open eyes — particularly for a recently-deceased pocong", "frequency": "common" },
+        { "feature": "Skeletal appearance (older variant)", "description": "Long-buried hantu bungkus are described as skeletal beneath the shroud", "frequency": "occasional" }
+      ],
+      "morphology": "An upright, shroud-wrapped human form whose locomotion is constrained by binding at the feet."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Hopping locomotion", "description": "Moves by hopping due to bound feet; some traditions hold that real pocong actually float silently", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Sudden appearance / disappearance", "description": "Said to appear and vanish suddenly, particularly near graves and roads at night", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Passing through solid objects", "description": "Some accounts describe pocong passing through walls and trees", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Errand-running for the living", "description": "In some Indonesian traditions, a pocong may be sent by the deceased's family to deliver a message before departing", "frequency": "rare", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["cemeteries", "graveyards near villages", "rural roads at night", "near banana trees", "near the home of the deceased"],
+      "diet": "Not applicable (revenant)",
+      "patterns": [
+        "Tied to the location of the deceased's grave",
+        "Active particularly at night",
+        "Departs once the shroud knots are loosened",
+        "Generally startles rather than attacks"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Predominantly the Malay-Indonesian Muslim cultural sphere: Indonesia, Malaysia, Brunei, Singapore, southern Thailand, and the Malay diaspora.",
+      "continents": ["Asia"],
+      "countries": ["Indonesia", "Malaysia", "Brunei", "Singapore"],
+      "regions": [
+        "Java",
+        "Sumatra",
+        "Malay Peninsula",
+        "Borneo"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-modern",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Tied to Islamic burial customs in Maritime Southeast Asia, in continuous practice since at least the 13th–14th centuries"
+      },
+      "peak_activity_periods": [
+        { "period": "2006–2019", "description": "Indonesian and Malaysian horror cinema produces a long sequence of Pocong-titled films, popularizing the figure regionally and internationally" }
+      ],
+      "seasonal_patterns": "Reports cluster around recent burials and funerals."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Islamic burial practice in the Malay-Indonesian world, where the kain kafan shroud is tied at multiple points and traditionally untied in the grave. The folk belief that improper untying produces a restless shroud-ghost predates modern documentation.",
+      "earliest_accounts": "Embedded in continuous Malay-Indonesian oral tradition; documented in 20th-century ethnographies of Malay and Javanese folk Islam.",
+      "folklore_connections": "Linked to the broader Maritime Southeast Asian taxonomy of hantu and to comparative traditions of the improperly-buried dead worldwide."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "2006-01-01", "event": "Indonesian horror film Pocong directed by Rudi Soedjarwo (and its sequels) released, anchoring the modern cinematic image", "significance": "Mass-market codification of the pocong figure", "source": "Indonesian film records" }
+    ],
+    "modern_era": "Hantu Bungkus / Pocong remains one of the most recognizable supernatural figures of Maritime Southeast Asia, constantly recycled in horror cinema, television, comics, and internet folklore. Its grounding in real burial practice gives the legend strong cultural traction even where literal belief has weakened."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +146,98 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "hantu-bungkus-evidence-folk-tradition",
+        "type": "folk-religious tradition",
+        "name": "Malay-Indonesian Islamic burial folklore",
+        "description": "Continuous oral tradition of pocong / hantu bungkus tied to Islamic shroud-binding customs.",
+        "status": "unverified",
+        "analysis": "Documented in regional folklore studies; treated as legend rather than empirical claim.",
+        "source": "Wikipedia (Pocong); Ghosts in Malay culture"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Restless soul of the unloosed dead",
+        "description": "Within the folk-religious frame, a Muslim whose shroud knots remain bound after burial is unable to depart, becoming a hantu bungkus until the knots are released.",
+        "proponents": ["Malay-Indonesian folk Islam"],
+        "evidence_cited": ["Continuous oral tradition", "Customary care taken in shroud-binding and untying"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Hoaxes and pranks",
+        "description": "Many reported pocong sightings in Malaysia and Indonesia have been traced to pranksters wearing white sheets; police have arrested individuals on multiple occasions.",
+        "proponents": ["Malaysian and Indonesian press reporting"],
+        "evidence_cited": ["Repeated arrests of pocong-impersonators in Indonesian and Malaysian villages"]
+      },
+      {
+        "name": "Folkloric reinforcement of burial practice",
+        "description": "The legend functions to enforce correct, respectful Islamic burial practice — particularly the proper untying of shroud knots — rather than to describe a literal entity.",
+        "proponents": ["Folklore studies of Malay-Islamic syncretism"],
+        "evidence_cited": ["Direct correspondence between legend and ritual prescription"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Malay and Javanese Islamic burial customs",
+        "Stories told to discourage tampering with graves",
+        "Cautionary tales about ensuring proper burial"
+      ],
+      "stories": [
+        "Pocong appearing near the grave of a recently buried person",
+        "Pranksters mistaken for real pocong (and vice versa)",
+        "Pocong used in family messages variant"
+      ],
+      "beliefs": "Belief is strongest among rural, observant Muslim communities; in urban areas the figure is more often encountered as a horror-genre staple than a serious belief."
+    },
+    "indigenous": {
+      "cultures": ["Javanese", "Sundanese", "Malay", "Bruneian Malay"],
+      "significance": "Reflects the deep entwinement of folk supernatural belief with Islamic ritual in the Malay-Indonesian world.",
+      "sensitivity_note": "Closely tied to actual Islamic burial practice; should be discussed with respect for the religious context.",
+      "respect_guidelines": "Avoid mocking treatment of burial customs; cite Malay/Indonesian-language sources where available."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Standard entry in Malay and Indonesian ghost-story compilations"
+      ],
+      "film_tv": [
+        "Pocong (2006, dir. Rudi Soedjarwo, Indonesia)",
+        "Pocong 2 (2006), Pocong 3 (2007) and sequels",
+        "Hantu Bungkus dan Ku-Ku-Ku (2009, Malaysia)",
+        "Numerous Malaysian and Indonesian horror anthology series featuring pocong"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "A staple costume in regional Halloween-equivalent and pranking contexts (despite social and legal disapproval)"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Treated within Malaysian and Indonesian academic folklore as a key case in Malay-Islamic syncretism; periodically revisited in cinema studies of Southeast Asian horror."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wiki-pocong", "type": "website", "title": "Pocong", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pocong", "accessed": "2026-05-07" },
+    { "id": "wiki-ghosts-malay", "type": "website", "title": "Ghosts in Malay culture", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ghosts_in_Malay_culture", "accessed": "2026-05-07" }
+  ]
 }
